@@ -1,0 +1,15 @@
+[package]
+name = "AoC2022_06"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+itertools = "0.10.5"
+
+[[bin]]
+name = "day06_part1"
+path = "src/part1.rs"
+
+[[bin]]
+name = "day06_part2"
+path = "src/part2.rs"
